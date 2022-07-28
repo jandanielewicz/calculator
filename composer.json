@@ -1,0 +1,22 @@
+{
+    "name": "jandanielewicz/calculator",
+    "autoload": {
+        "psr-4": {
+            "Jandanielewicz\\Calculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Danielewicz",
+            "email": "jan.danielewicz@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jandanielewicz\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+}
