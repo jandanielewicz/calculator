@@ -2,7 +2,8 @@
     "name": "jandanielewicz/calculator",
     "autoload": {
         "psr-4": {
-            "Jandanielewicz\\Calculator\\": "src/"
+            "Jandanielewicz\\Calculator\\": "src/",
+            "Jandanielewicz\\Calculator\\Tests\\": "tests/"
         }
     },
     "authors": [
